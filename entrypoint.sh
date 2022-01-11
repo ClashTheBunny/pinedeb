@@ -23,6 +23,6 @@ debootstrap --arch=arm64 \
             --variant=minbase \
             --force-check-gpg \
             $EXTRA_PACKAGES \
-            bullseye \
+            bookworm \
             /target \
             http://cdn-fastly.deb.debian.org/debian
